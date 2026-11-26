@@ -1,0 +1,16 @@
+# Local working notes (not tracked)
+TASK.md
+
+# Windows download metadata
+*:Zone.Identifier
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# General-purpose personal skills (not project-specific).
+# Project-specific skills added to .agents/skills later should be tracked;
+# revisit skills-lock.json and the .claude/skills link at that point.
+.agents/skills/grill-me/
+.agents/skills/grilling/
+skills-lock.json
+.claude/skills
