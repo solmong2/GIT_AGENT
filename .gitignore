@@ -14,3 +14,13 @@ TASK.md
 .agents/skills/grilling/
 skills-lock.json
 .claude/skills
+
+# Real project configs, task info and secrets stay local:
+# GIT_AGENT is a shared module and this repository is public.
+# Only templates and examples are tracked.
+projects/*
+!projects/_template/
+tasks/
+.env
+.env.*
+!.env.example
